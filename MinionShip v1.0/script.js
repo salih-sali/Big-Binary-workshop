@@ -1,9 +1,9 @@
 let box = document.querySelectorAll(".smallbox")
 images = {
-    0: "bob-bobtheminion.gif",
-    1: "minion2.gif",
-    2:"VwNj.gif",
-    3:"what-minions.gif"
+    0: "https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/bob-bobtheminion.gif?raw=true", //"bob-bobtheminion.gif",
+    1: "https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/minion2.gif?raw=true", // "minion2.gif",
+    2:"https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/VwNj.gif?raw=true", //"VwNj.gif"
+    3:"https://raw.githubusercontent.com/salih-sali/Big-Binary-workshop/41e44a934fef8f4671c361f0a59e34d4ea6706dd/MinionShip%20v1.0/what-minions.gif" //"what-minions.gif"
 }
 
 let randarr=[0,2,1,3,2,1,3,0,0,2,1,2,3,3,1,0]
@@ -50,7 +50,7 @@ function won(){
     for(let element of box)
     {
         var myimg = element.getElementsByTagName('img')[0];
-        myimg.src="./celebrate2.gif"
+        myimg.src="https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/celebrate2.gif?raw=true" //"./celebrate2.gif"
 
     }
 }
@@ -61,7 +61,7 @@ function resetfn(){
    for(let element of box)
     {
         var myimg = element.getElementsByTagName('img')[0];
-        myimg.src="./qnbox.gif"
+        myimg.src="https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/qnbox.gif?raw=true" //"./qnbox.gif"
 
     }
    console.log("done")
@@ -110,9 +110,9 @@ function resetTwoBox(temp)
 {
     console.log("reseting...."+ temp)
     var myimg= document.getElementById(temp[0]).getElementsByTagName('img')[0];
-    myimg.src="qnbox.gif"
+    myimg.src="https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/qnbox.gif?raw=true" //"qnbox.gif"
      myimg= document.getElementById(temp[1]).getElementsByTagName('img')[0];
-    myimg.src="qnbox.gif"
+    myimg.src="https://github.com/salih-sali/Big-Binary-workshop/blob/master/MinionShip%20v1.0/qnbox.gif?raw=true" //"qnbox.gif"
 }
 
 
