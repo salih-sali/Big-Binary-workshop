@@ -38,7 +38,7 @@ for (let element of box) {
           }
 
           if(q===16){
-     setTimeout(won,500)
+     setTimeout(won,300)
     
     }
 }
@@ -46,7 +46,7 @@ for (let element of box) {
 }
 
 function won(){
-    alert("you won with score "+score+ ".....")
+    alert("\n     🥳 🎊 🎉 YOU WON 🥳 🎊 🎉 \n\n      🤩 with score : "+score+ "  🤩")
     for(let element of box)
     {
         var myimg = element.getElementsByTagName('img')[0];
@@ -133,6 +133,6 @@ let know =document.getElementById('know')
 know.addEventListener('click',knowfn)
 
 function knowfn(){
-    alert(" Rules\n 1) Their are 4 different images\n 2) you need to find a pair of 2 similar images to earn 1 score\n 3) if you fail in finding a pair (that is you picked 2 different images)\n    you loose 1 score\n 4) At the end when you find all the pair, you can see the score you\n     earned\n 5) The score will be 8 for the best move \n  ~~~~~~ GOOD LUCK ~~~~~~")
+    alert(" 📜Rules📜\n 1) Their are 4 different images\n 2) you need to find a pair of 2 similar images to earn 1 score\n 3) if you fail in finding a pair (that is you picked 2 different images)\n    you loose 1 score\n 4) At the end when you find all the pair, you can see the score you\n     earned\n 5) The score will be 8 for the best move \n  ~~~~~~ GOOD LUCK ~~~~~~")
     
 }
